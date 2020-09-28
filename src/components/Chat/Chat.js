@@ -7,7 +7,7 @@ import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 
 import './Chat.css';
-import car from '../../icons/background.jpg'
+import image from '../../icons/background.jpg'
 
 const ENDPOINT = 'https://global-chat-ui-server.herokuapp.com/';
 
@@ -54,7 +54,7 @@ const Chat = ({ location }) => {
   }
 
   return (
-    <div className="outerContainer"  style={{ backgroundImage:`url(${car})` }}>
+    <div className="outerContainer"  style={{ backgroundImage:`url(${image})` }}>
       <div className="container">
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />
